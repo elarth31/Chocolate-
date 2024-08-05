@@ -1,0 +1,288 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+ button{
+    cursor: pointer;
+ }
+/* ===========Header========= */
+
+.header-logo { 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.header-logo-italic {
+    font-style: italic;
+}
+
+.header-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+/* =========HERO========== */
+
+.hero {
+    background-color: gray;
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.hero-primary-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-primary-btn:hover {
+    
+}
+
+
+.hero-secondary-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-scroll-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+/* =========features======== */
+
+.features {
+    background-color: #1e1823;
+}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.features-item-text {
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* ===========Taste========== */
+
+.taste {}
+
+.taste-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;}
+
+.text-title-accent {
+    color: #fd9222;
+}
+
+.taste-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111;
+}
+
+.taste-list {}
+
+.taste-item {}
+
+.taste-image {}
+
+.taste-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+
+/* ======MADE========= */
+
+.made {}
+
+.made-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.made-title-accent{
+    color: #fd9222;
+}
+
+.made-image {}
+
+.made-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #111;}
+
+.made-list {}
+
+.made-item {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #111;}
+
+.made-item-text {}
+
+/* ==========review========== */
+
+.review {}
+
+.review-title {font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.review-title-accent {
+color: #fd9222;
+}
+
+.review-list {}
+
+.review-item {}
+
+.review-subtitle {
+    font-weight: 600;
+        font-size: 18px;
+        line-height: 1.33;
+        text-align: center;
+        color: #111;
+}
+
+.review-item-text {
+    font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(17, 17, 17, 0.7);
+}
+
+.review-image{}
+
+.review-btn {
+    font-weight: 600;
+        font-size: 18px;
+        color: #111;
+}
+
+
+
+
+.footer {
+    background-color: #1e1823;
+}
+
+.footer-title {font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-title-accent{
+color: #fd9222;
+}
+
+.footer-text {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.29;
+        text-align: center;
+        color: #fff;
+}
+
+.footer-address{}
+
+.footer-list {}
+
+.footer-item {}
+
+.footer-address-link {
+    font-style: normal;
+    font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fff;
+}
+
+.footer-navigation {}
+
+.footer-nav-list {}
+
+.footer-nav-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+    }
+
+.footer-nav-link {
+   color: #fff; 
+}
